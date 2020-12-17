@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Fibonacci</title>
+    </head>
+    
+    
+    <body style="background-color:black; color:white; font-size:25px;" >
+        <h1> Fibonacci Sequence </h1>
+       <script type="text/javascript">
+           
+var one=0;
+var two=1;
+var three;
+           
+var number= prompt("Enter your Number.");
+                      
+document.write(one + "<br/>");
+document.write(two + "<br/>");
+
+
+
+for(var i=3;i<=number;i++)
+               {
+               three = one+two;
+               one = two;
+               two = three;
+    document.write(three+"<br/>");
+               }
+
+       
+           
+               
+        </script>
+        
+    </body>
+    
+</htmld>
